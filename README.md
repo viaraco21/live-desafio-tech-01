@@ -1,3 +1,6 @@
+# video
+https://www.youtube.com/watch?v=OhV-pXgeVq4&t=20s
+
 # Automação com Terraform
 
 ## Objetivo do projeto
