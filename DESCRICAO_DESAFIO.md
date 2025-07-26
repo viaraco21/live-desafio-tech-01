@@ -1,6 +1,6 @@
 # Desafio Técnico: Implementação de um Cluster Kubernetes com Terraform e Automação via GitHub Actions
 
-## Esse desafio foi resolvido na live abaixo:
+## Esse desafio foi resolvido na live abaixo Fabricio Veronez:
 
 https://www.youtube.com/watch?v=OhV-pXgeVq4
 
