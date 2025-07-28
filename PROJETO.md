@@ -1,16 +1,12 @@
-# Desafio Técnico: Implementação de um Cluster Kubernetes com Terraform e Automação via GitHub Actions
+# Projeto Técnico: Implementação de um Cluster Kubernetes com Terraform e Automação via GitHub Actions
 
-## Esse desafio foi resolvido na live abaixo Fabricio Veronez:
-
-https://www.youtube.com/watch?v=OhV-pXgeVq4
 
 ## Contexto
-Mr. Fusion Solutions, uma startup de tecnologia inovadora no campo de energia, está buscando expandir suas operações e precisa melhorar a qualidade e eficiência de seus processos de desenvolvimento e deployment dos seus softwares. A empresa deseja implementar uma base escalável e robusta usando Kubernetes, que possa suportar o rápido crescimento e a necessidade de atualizações contínuas de suas aplicações.
-E foi definido que você será essa pessoa que vai entregar essa solução escalável para a Mr. Fusion Solutions.
+Projeto Plataforma Goritek
 
 ## Objetivo
 
-O objetivo deste desafio é criar um projeto para provisionar um cluster Kubernetes na AWS usando o Amazon EKS (Elastic Kubernetes Service) de forma automatizada. Após a criação do cluster, você deverá configurar uma pipeline usando GitHub Actions que automatize o processo de criação e manutenção desse cluster Kubernetes. Com o objetivo de suportar a escala de diversos microsserviços da Mr. Fusion Solutions.
+O objetivo criar um projeto para provisionar um cluster Kubernetes na AWS usando o Amazon EKS (Elastic Kubernetes Service) de forma automatizada. Após a criação do cluster, você deverá configurar uma pipeline usando GitHub Actions que automatize o processo de criação e manutenção desse cluster Kubernetes. Com o objetivo de suportar a escala de diversos microsserviços.
 
 ## Etapas do projeto
 
@@ -26,21 +22,18 @@ O objetivo deste desafio é criar um projeto para provisionar um cluster Kuberne
    - Documente o processo de criação e os requisitos necessários para inicializar e gerenciar o cluster.
    - Inclua possíveis melhorias no projeto.
 
-## Critérios de Avaliação
+## Critérios 
 
 - Modo de Implementação: O cluster Kubernetes deve ser inicializado corretamente e atender os requisitos.
 - Qualidade do Código: O código Terraform deve ser claro, bem organizado e seguir as melhores práticas de desenvolvimento e reaproveitamento.
 - Funcionalidade da Pipeline: A pipeline de deve funcionar sem erros, realizando todas as tarefas especificadas.
 - Documentação: A documentação deve ser completa, clara e fornecer todos os detalhes necessários para que outros profissionais possam reproduzir o processo.
 
-# video
-https://www.youtube.com/watch?v=OhV-pXgeVq4&t=20s
-
 # Automação com Terraform
 
 ## Objetivo do projeto
 
-O objetivo é automatizar o processo de criação e manutenção do ambiente para execução dos projetos de Software da Mr. Fusion Solutions.
+O objetivo é automatizar o processo de criação e manutenção do ambiente para execução dos projetos de Software.
 
 ## Premissas do Projeto
 
@@ -50,7 +43,7 @@ Para o desenvolvimento do projeto, foram levantadas as seguintes premissas:
 + O cluster Kubernetes deve ser criado utilizando o serviço Elastic Kubernetes Service (EKS) da AWS.
 + O projeto deve ser o mais simples e reaproveitável possível. 
 + Toda vez que houver alteração no código Terraform na branch main do repositório, a pipeline deve ser executada.
-+ Só vai haver um ambiente Kubernetes (os ambientes de desenvolvimento, homologação e produção serão separados por namespace).
++ Só vai haver um ambiente Kubernetes produção.
 
 ## Tecnologias utilizadas no projeto
 
