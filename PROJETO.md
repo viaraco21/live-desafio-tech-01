@@ -15,7 +15,7 @@ O objetivo criar um projeto para provisionar um cluster Kubernetes na AWS usando
    - O cluster deve ter no mínimo dois nós de worker node.
 
 2. **Pipeline com GitHub Actions:**
-   - Desenvolva uma pipeline utilizando GitHub Actions.
+   - Criar uma pipeline utilizando GitHub Actions.
    - A pipeline deve ser executada sempre que houver alteração na base do projeto Terraform.
 
 3. **Documentação:**
@@ -25,9 +25,8 @@ O objetivo criar um projeto para provisionar um cluster Kubernetes na AWS usando
 ## Critérios 
 
 - Modo de Implementação: O cluster Kubernetes deve ser inicializado corretamente e atender os requisitos.
-- Qualidade do Código: O código Terraform deve ser claro, bem organizado e seguir as melhores práticas de desenvolvimento e reaproveitamento.
-- Funcionalidade da Pipeline: A pipeline de deve funcionar sem erros, realizando todas as tarefas especificadas.
-- Documentação: A documentação deve ser completa, clara e fornecer todos os detalhes necessários para que outros profissionais possam reproduzir o processo.
+- O código Terraform, bem organizado e seguir as melhores práticas de desenvolvimento e reaproveitamento.
+- Funcionalidade da Pipeline: A pipeline deve funcionar, realizando todas as tarefas especificadas.
 
 # Automação com Terraform
 
@@ -41,7 +40,6 @@ Para o desenvolvimento do projeto, foram levantadas as seguintes premissas:
 
 + Utilizar o Terraform como ferramenta de infraestrutura como código.
 + O cluster Kubernetes deve ser criado utilizando o serviço Elastic Kubernetes Service (EKS) da AWS.
-+ O projeto deve ser o mais simples e reaproveitável possível. 
 + Toda vez que houver alteração no código Terraform na branch main do repositório, a pipeline deve ser executada.
 + Só vai haver um ambiente Kubernetes produção.
 
